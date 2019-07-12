@@ -21,7 +21,7 @@ function startVideo() {
         if (status) {
             updateNote.innerText = "Wideo ruszyło! Poszukuję dłoni."
             isVideo = true
-            setInterval(runDetection(), 800);
+            setInterval(runDetection(), 1200);
         } else {
             updateNote.innerText = "Proszę włącz obraz..."
         }
