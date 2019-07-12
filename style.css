@@ -1,5 +1,6 @@
 
 body {
+    position:fixed;
     padding: 20px;
     background: url(hand.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
