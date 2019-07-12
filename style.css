@@ -19,6 +19,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
+    width:100%;
     overflow: hidden;
     }
   }
@@ -65,12 +66,15 @@ body {
 }
 
 .updatenote {
-    position: sticky;
+    position: absolute;
     margin-left: 40px;
+    margin-right:auto;
+    margin-top: 7px;
     padding: 10px;
     background: #0027c2;
     color: white;
     display: inline;
+    border: 2px solid black;
 }
 
 audio {
