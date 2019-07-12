@@ -1,14 +1,18 @@
 
 body {
+    background-color: #464646;
     padding: 20px;
-    background: url(hand.jpg) repeat-x center center fixed;
-    background-size: auto;
-      -webkit-background-size: cover;
+    background: url(hand.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  
+  background-size: cover;
 }
-
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(hand_mob.jpg);
+  }
+}
 .p20 {
     padding: 20px;
     margin-left: 10px;
