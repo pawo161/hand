@@ -1,7 +1,7 @@
 
 body {
     padding: 20px;
-    background: url(hand.jpg) no-repeat center center fixed;
+    background: url(hand.jpg) repeat-x center center fixed;
     background-size: auto;
       -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,8 +14,8 @@ body {
     margin-left: 10px;
 }
 .header{
-
-
+    position:sticky;
+    size: auto;
     margin-left: 40px;
     margin-right: 40px;
     padding: 20px;
