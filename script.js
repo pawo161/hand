@@ -10,9 +10,9 @@ let model = null;
 
 const modelParams = {
     flipHorizontal: true,   // flip e.g for video  
-    maxNumBoxes: 4,        // maximum number of boxes to detect
+    maxNumBoxes: 2,        // maximum number of boxes to detect
     iouThreshold: 0.5,      // ioU threshold for non-max suppression
-    scoreThreshold: 0.66,    // confidence threshold for predictions.
+    scoreThreshold: 0.68,    // confidence threshold for predictions.
 }
 
 function startVideo() {
@@ -21,7 +21,7 @@ function startVideo() {
         if (status) {
             updateNote.innerText = "Wideo ruszyło! Poszukuję dłoni."
             isVideo = true
-            setInterval(runDetection(), 1900);
+            setInterval(runDetection(), 2700);
         } else {
             updateNote.innerText = "Proszę włącz obraz..."
         }
@@ -55,6 +55,7 @@ function runDetection() {
             }
             else{
                 audio.pause();
+                
             }
     });
 }

@@ -1,33 +1,66 @@
+
 body {
     padding: 20px;
+    background: url(hand.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .p20 {
     padding: 20px;
+    margin-left: 10px;
+}
+.header{
+
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 32px;
+    line-height: 50px;
 }
 
 .canvasbox {
+    position: fixed;
     border-radius: 3px;
     margin-right: 10px;
-    width: 450px;
-    height: 338px;
-    border-bottom: 3px solid #0063FF;
+    margin-left: 10px;
+    width: 500px;
+    height: 388px;
+    border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
-  background: #333;
+    
 
 }
 
 .mb10 {
-    margin-bottom: 10px
+    
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .mt10 {
-    margin-top: 10px
+    
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .updatenote {
+
     padding: 10px;
     background: rgb(245, 147, 20);
     color: white;
     display: inline;
+}
+
+audio {
+    display:none;
+    position: fixed;
+    margin-top: 400px;
+    margin-left: 10px;
+    border-radius: 3px;
+    
+    padding: 20px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+    
 }
