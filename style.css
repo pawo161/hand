@@ -65,7 +65,8 @@ body {
 }
 
 .updatenote {
-
+    position: sticky;
+    margin-left: 40px;
     padding: 10px;
     background: #0027c2;
     color: white;
