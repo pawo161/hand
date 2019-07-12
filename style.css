@@ -1,7 +1,7 @@
 
 body {
     padding: 20px;
-    background: url(hand.jpg) repeat-x center center fixed;
+    background: url(hand.jpg) repeat center center fixed;
     background-size: auto;
       -webkit-background-size: cover;
   -moz-background-size: cover;
