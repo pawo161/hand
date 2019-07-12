@@ -4,15 +4,25 @@ body {
     padding: 20px;
     background: url(hand.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
 }
 @media only screen and (max-width: 767px) {
   body {
     background-image: url(hand_mob.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    }
   }
-}
+
 .p20 {
     padding: 20px;
     margin-left: 10px;
@@ -72,4 +82,5 @@ audio {
     padding: 20px;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
     
+}
 }
