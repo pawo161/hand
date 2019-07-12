@@ -9,7 +9,7 @@ let isVideo = false;
 let model = null;
 
 const modelParams = {
-    flipHorizontal: true,   // flip e.g for video  
+    flipHorizontal: true, // flip e.g for video    
     maxNumBoxes: 2,        // maximum number of boxes to detect
     iouThreshold: 0.5,      // ioU threshold for non-max suppression
     scoreThreshold: 0.68,    // confidence threshold for predictions.
@@ -55,7 +55,7 @@ function runDetection() {
             }
             else{
                 audio.pause();
-                
+
             }
     });
 }
