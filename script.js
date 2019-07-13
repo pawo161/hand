@@ -9,10 +9,11 @@ let isVideo = false;
 let model = null;
 
 const modelParams = {
-    flipHorizontal: true, // flip e.g for video    
-    maxNumBoxes: 2,        // maximum number of boxes to detect
+    flipHorizontal: true,  // flip e.g for video  
+    imageScaleFactor: 0.2,   
+    maxNumBoxes: 3,        // maximum number of boxes to detect
     iouThreshold: 0.5,      // ioU threshold for non-max suppression
-    scoreThreshold: 0.68,    // confidence threshold for predictions.
+    scoreThreshold: 0.72,    // confidence threshold for predictions.
 }
 
 function startVideo() {
@@ -21,7 +22,7 @@ function startVideo() {
         if (status) {
             updateNote.innerText = "Wideo ruszyło! Poszukuję dłoni."
             isVideo = true
-            setInterval(runDetection(), 2700);
+            setInterval(runDetection(), 2800);
         } else {
             updateNote.innerText = "Proszę włącz obraz..."
         }
@@ -45,6 +46,7 @@ function toggleVideo() {
 function runDetection() {
     model.detect(video).then(predictions => {
         //console.log("Predictions: ", predictions);
+        model.setModelParameters(modelParams)
         model.renderPredictions(predictions, canvas, context, video);
         if (isVideo) {
             requestAnimationFrame(runDetection);

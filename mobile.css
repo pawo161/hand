@@ -1,41 +1,45 @@
-
-body {
-    background-color: #464646;
-    padding: 20px;
-    background: url(hand.jpg) no-repeat center center fixed;
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(hand_mob.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
+    width:100%;
     overflow: hidden;
-
-}
+    }
+  
 
 
 .p20 {
     padding: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .header{
     position:sticky;
+    text-align:center;
     size: auto;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 20px;
-    font-size: 32px;
-    line-height: 50px;
-    border: 2px solid;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid;
 
 }
 
 .canvasbox {
-    position: fixed;
+    position:fixed;
+    
     border-radius: 3px;
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 500px;
-    height: 388px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 400px;
+    height: 288px;
+    min-width: 10%;
+    min-height: 10%;
+    
     border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
     
@@ -43,7 +47,7 @@ body {
 }
 
 .mb10 {
-    
+    font-size: 70%;
     margin-bottom: 10px;
     margin-left: 10px;
 }
@@ -55,9 +59,10 @@ body {
 }
 
 .updatenote {
+    font-size: 70%;
     position: absolute;
-    margin-left: 40px;
-    margin-right:auto;
+    margin-left: 5px;
+    margin-right:5px;
     margin-top: 7px;
     padding: 10px;
     background: #0027c2;
@@ -65,15 +70,13 @@ body {
     display: inline;
     border: 2px solid black;
 }
+.bx--btn {
+    font-size: 70%;
 
 audio {
     display:none;
     position: fixed;
-    margin-top: 400px;
-    margin-left: 10px;
-    border-radius: 3px;
-    padding: 20px;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
     
+}
 }
 }
