@@ -13,8 +13,10 @@
 
 
 .p20 {
-    padding: 20px;
+    padding: 10px;
+    margin-right: 5px;
     margin-left: 5px;
+
 }
 .header{
     position:sticky;
@@ -22,7 +24,7 @@
     size: auto;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
     line-height: 25px;
     border: 1px solid;
@@ -30,15 +32,15 @@
 }
 
 .canvasbox {
-    position:fixed;
+    position:absolute;
     
     border-radius: 3px;
     margin-right: 5px;
     margin-left: 5px;
-    width: 400px;
-    height: 288px;
-    min-width: 10%;
-    min-height: 10%;
+    width: 100%;
+    height: auto;
+    
+    
     
     border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
@@ -47,7 +49,7 @@
 }
 
 .mb10 {
-    font-size: 70%;
+    font-size: 80%;
     margin-bottom: 10px;
     margin-left: 10px;
 }
@@ -71,7 +73,7 @@
     border: 2px solid black;
 }
 .bx--btn {
-    font-size: 70%;
+    font-size: 80%;
 
 audio {
     display:none;
