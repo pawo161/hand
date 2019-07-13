@@ -69,3 +69,29 @@ handTrack.load(modelParams).then(lmodel => {
     updateNote.innerText = "Model załadowany (ML)"
     trackButton.disabled = false
 });
+
+
+$(window).on("resize", function() {
+        scaleMobileView();
+    });
+
+function scaleMobileView() {
+    const vW = window.innerWidth;
+    const container = $(".container")[0];
+
+    if (vW >= 1366) {
+        container.style.transform = "none";
+        return false;
+    }
+
+    const containerW = container.clientWidth;
+    const containerH = container.clientHeight;
+
+    const scale = vW / containerW;
+
+    const newCH = containerH * scale;
+    let delta = (newCH - containerH) / 2;
+
+    container.style.transform =
+        "translateY(" + delta + "px) scale(" + scale + ")";
+}
