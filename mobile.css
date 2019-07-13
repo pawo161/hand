@@ -5,7 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    height: 100%;
     overflow: hidden;
     }
   
@@ -20,6 +20,7 @@
 .header{
     position:sticky;
     text-align:center;
+    color:white;
     size: auto;
     margin-left: 20px;
     margin-right: 20px;
@@ -27,6 +28,7 @@
     font-size: 18px;
     line-height: 25px;
     border: 1px solid;
+    border-color: black;
 
 }
 
