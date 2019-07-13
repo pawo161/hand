@@ -22,30 +22,31 @@
     text-align:center;
     color:white;
     size: auto;
-    margin-left: 20px;
-    margin-right: 20px;
     padding: 10px;
     font-size: 18px;
     line-height: 25px;
     border: 1px solid;
     border-color: black;
+    align-items:center;
 
 }
 
 .canvasbox {
-    position:absolute;
-    float:left;
-    border-radius: 3px;
+    left:50%;
+    min-height: 1%;
+    min-width: 1%;
+    position: fixed;
+    top:65%;
+    transform: translate(-50%, -50%);
     margin-right: 5px;
     margin-left: 5px;
-    width:60%;
-    height: 30%;
+    border-radius: 3px;
     border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
-    resize: both;
 }
 
 .mb10 {
+    
     font-size: 80%;
     margin-bottom: 10px;
     margin-left: 10px;
