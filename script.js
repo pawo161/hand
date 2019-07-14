@@ -243,9 +243,7 @@ function startRecording() {
       try {
         options = 'video/vp8'; // Chrome 47
         mediaRecorder = new MediaRecorder(window.stream, options);
-      } catch (e2) {
-        alert('MediaRecorder is not supported by this browser.\n\n' +
-            'Try Firefox 29 or later, or Chrome 47 or later, with Enable experimental Web Platform features enabled from chrome://flags.');
+      };
         console.error('Exception while creating MediaRecorder:', e2);
         return;
       }
