@@ -134,7 +134,18 @@ audio {
 .b {
   margin: 100vh auto auto auto;
 }
+#recorded{
+  position: absolute;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-left: 100px;
+  width: 500px;
+  height: 388px;
+  border-bottom: 3px solid #EE82EE;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+  overflow: hidden;
 
+}
 button {
   margin: 0 3px 10px 75vw;
   padding-left: 2px;
