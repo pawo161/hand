@@ -27,7 +27,7 @@ const modelParams = {
     imageScaleFactor: 0.2,   
     maxNumBoxes: 3,        // maximum number of boxes to detect
     iouThreshold: 0.5,      // ioU threshold for non-max suppression
-    scoreThreshold: 0.72,    // confidence threshold for predictions.
+    scoreThreshold: 0.70,    // confidence threshold for predictions.
 }
 
 
