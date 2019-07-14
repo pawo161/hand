@@ -140,9 +140,7 @@ audio {
     right:5px;
     max-width:75%; 
     height:50vw;
-    position: absolute;
-    
-    
+    position: fixed;
     margin: 200vh auto auto auto;
     border-radius: 3px;
     border-bottom: 3px solid #EE82EE;
@@ -151,7 +149,7 @@ audio {
 
 }
 button {
-  margin: 220vh auto auto 80vw;
+  margin: 230vh auto auto 75vw;
   padding-left: 2px;
   padding-right: 2px;
   width: 99px;
