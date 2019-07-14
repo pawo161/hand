@@ -46,7 +46,7 @@ body {
 }
 
 .mb10 {
-    position:fixed;
+    position:absolute;
     margin-bottom: 10px;
     margin-left: 10px;
 }
@@ -127,7 +127,7 @@ audio {
 
 .a {
   
-  margin: 80vh auto auto 5px;
+  margin: 100vh auto auto 5px;
 }
 
 .b {
