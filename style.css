@@ -134,22 +134,6 @@ audio {
 .b {
   margin: 100vh auto auto auto;
 }
-button {
-  position: fixed;
-  top:80vh;
-  right: 60px;
-  
-  padding-left: 2px;
-  padding-right: 2px;
-  
-  
-}
-
-button:last-of-type {
-  
-  right: 5px;
-  
-}
 
 
 
