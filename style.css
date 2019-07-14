@@ -135,10 +135,11 @@ audio {
   margin: 100vh auto auto auto;
 }
 button {
-  margin: 0 3px 10px 0;
+  margin: 60px 3px 10px 0;
   padding-left: 2px;
   padding-right: 2px;
   width: 99px;
+
 }
 
 button:last-of-type {
@@ -152,7 +153,7 @@ p.borderBelow {
 
 video {
   height: 232px;
-  margin: 0 12px 20px 0;
+  margin: 20px 12px 20px 0;
   vertical-align: top;
   width: calc(20em - 10px);
 }
@@ -162,7 +163,7 @@ video:last-of-type {
 }
 
 video#gumVideo {
-  margin: 0 20px 20px 0;
+  margin: 60px 20px 20px 0;
 }
 
 @media (max-width: 500px) {
