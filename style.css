@@ -160,6 +160,7 @@ button {
 
 button:last-of-type {
   margin: 0;
+  display:none;
 
 }
 
