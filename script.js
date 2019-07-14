@@ -47,6 +47,7 @@ function startVideo() {
             setInterval(runDetection(), 2800);
         } else {
             updateNote.innerText = "Proszę włącz obraz..."
+            stopRecording()
         }
     });
 }
@@ -60,6 +61,7 @@ function toggleVideo() {
         handTrack.stopVideo(video)
         isVideo = false;
         updateNote.innerText = "Zastopowane..."
+        stopRecording()
     }
 }
 
