@@ -59,10 +59,10 @@ function toggleVideo() {
     } else {
         updateNote.innerText = "Stopuję..."
         handTrack.stopVideo(video)
-        isVideo = false;
-        updateNote.innerText = "Zastopowane..."
         stopRecording()
         play()
+        isVideo = false;
+        updateNote.innerText = "Zastopowane..."
     }
 }
 

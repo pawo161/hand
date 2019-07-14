@@ -138,12 +138,12 @@ audio {
 
     left: 5px;
     right:5px;
-    max-width:65%; 
-    height:40vw;
+    max-width:75%; 
+    height:50vw;
     position: absolute;
     
     
-    margin: 260vh auto auto auto;
+    margin: 200vh auto auto auto;
     border-radius: 3px;
     border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
@@ -151,7 +151,7 @@ audio {
 
 }
 button {
-  margin: 260vh auto auto 75vw;
+  margin: 220vh auto auto 80vw;
   padding-left: 2px;
   padding-right: 2px;
   width: 99px;
