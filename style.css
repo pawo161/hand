@@ -135,11 +135,11 @@ audio {
   margin: 100vh auto auto auto;
 }
 button {
-  margin: 0 3px 10px 200px;
+  margin: 0 3px 10px 300px;
   padding-left: 2px;
   padding-right: 2px;
   width: 99px;
-  overflow: auto
+  
 }
 
 button:last-of-type {
@@ -147,7 +147,7 @@ button:last-of-type {
 }
 
 p.borderBelow {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 200px;
   padding: 0 0 20px 0;
 }
 
@@ -159,26 +159,13 @@ video {
 }
 
 video:last-of-type {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 200px;
 }
 
 video#gumVideo {
   margin: 0 20px 20px 200px;
 }
 
-@media (max-width: 500px) {
-  button {
-    font-size: 0.8em;
-    width: calc(33% - 5px);
-  }
-}
-
-@media (max-width: 720px) {
-  video {
-    height: calc((50vw - 48px) * 3 / 4);
-    margin: 0 10px 10px 200px;
-    width: calc(50vw - 48px);
-  }
 
   video#gumVideo {
     margin: 0 10px 10px 200px;
