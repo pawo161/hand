@@ -135,7 +135,9 @@ audio {
   margin: 100vh auto auto auto;
 }
 button {
-  margin: 0 3px 10px 300px;
+  position: absolute;
+  right: 5px;
+  margin: 0 3px 10px 0px;
   padding-left: 2px;
   padding-right: 2px;
   width: 99px;
@@ -143,32 +145,38 @@ button {
 }
 
 button:last-of-type {
+  position: absolute;
+  right: 5px;
   margin: 0;
 }
 
 p.borderBelow {
-  margin: 0 0 20px 200px;
+  position: absolute;
+  right: 5px;
+  margin: 0 0 20px 0;
   padding: 0 0 20px 0;
 }
 
 video {
+  position: absolute;
+  right: 5px;
   height: 232px;
-  margin: 0 12px 20px 200px;
+  margin: 0 12px 20px 0;
   vertical-align: top;
   width: calc(20em - 10px);
 }
 
 video:last-of-type {
-  margin: 0 0 20px 200px;
+  margin: 0 0 20px 0;
 }
 
 video#gumVideo {
-  margin: 0 20px 20px 200px;
+  margin: 0 20px 20px 0;
 }
 
 
   video#gumVideo {
-    margin: 0 10px 10px 200px;
+    margin: 0 10px 10px 0;
   }
 }
 }
