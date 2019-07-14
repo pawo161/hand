@@ -136,7 +136,7 @@ audio {
 }
 button {
   position: fixed;
-  right: 5px;
+  right: 30px;
   
   padding-left: 2px;
   padding-right: 2px;
@@ -152,14 +152,14 @@ button:last-of-type {
 
 p.borderBelow {
   position: fixed;
-  right: 5px;
+  
   margin: 0 0 20px 0;
   padding: 0 0 20px 0;
 }
 
 video {
-  position: fixed;
-  right: 5px;
+  position: relative;
+  right: 40px;
   height: 232px;
   
   
