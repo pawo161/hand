@@ -43,7 +43,7 @@ function startVideo() {
         if (status) {
             updateNote.innerText = "Wideo ruszyło! Poszukuję dłoni."
             isVideo = true
-            toggleRecording()
+            startRecording()
             setInterval(runDetection(), 2800);
         } else {
             updateNote.innerText = "Proszę włącz obraz..."
