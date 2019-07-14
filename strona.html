@@ -41,6 +41,14 @@
   <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
 
   <canvas id="canvas" class="border canvasbox"></canvas>
+  <video id="gum" autoplay muted></video>
+  <video id="recorded" autoplay loop controls></video>
+
+  <div>
+    <button id="record">Start Recording</button>
+    <button id="play" disabled>Play</button>
+    <button id="download" disabled>Download</button>
+  </div>
   <footer>
     <div>
       <span class="hero__scroll aos-init aos-animate" onclick="if(isVideo=true){toggleVideo()}">
