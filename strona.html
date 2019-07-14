@@ -2,14 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="UTF-8">
   <title>reakcja na dłoń! </title>
-  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/"/>
   <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mobile.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
 </head>
 
 <body class="bx--body p20">
@@ -29,11 +32,39 @@
   <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
 
   <canvas id="canvas" class="border canvasbox"></canvas>
+  <footer>
+    <div>
+      <span class="hero__scroll aos-init aos-animate" data-aos="anim1">
+        <pre>
+            <br>Zjedź w dół</br>
+        </pre>    
+      </span>
+    </div>
+    
+     
+    <div class="box a" id="trigger-left" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-quad">
+      <h2>Dziwny prostokąt nr. 1!</h2>
+    </div>
+    <div class="box a"
+     data-aos="fade-right"
+     data-aos-anchor="#trigger-left"
+     data-aos-anchor-placement="bottom-top"
+     data-aos-duration="1000"
+     data-aos-easing="ease-in-out-back">
+        POKAŻ SIĘ
+        <span>TEKST O NICZYM</span>
+    </div>    
+    <div class="box b" data-aos="zoom-in">
+      <h2>Dziwny prostokąt nr. 2!</h2>
+    </div>
 
-  
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
   <audio src="olaf.mp3" id="audio" autobuffer autoloop loop controls></audio>
   <script src="script.js"></script>
+  
+  
 </body>
-
 </html>

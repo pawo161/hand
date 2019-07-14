@@ -8,7 +8,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+
 
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 .canvasbox {
-    position: fixed;
+    position: absolute;
     border-radius: 3px;
     margin-right: 10px;
     margin-left: 10px;
@@ -40,7 +41,7 @@ body {
     height: 388px;
     border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
-    
+    overflow: hidden;
 
 }
 
@@ -77,5 +78,60 @@ audio {
     padding: 20px;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
     
+}
+
+.hero__scroll {
+    text-shadow: 5px 5px #EE82EE;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    bottom: 1px;
+    width: 140px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    padding-bottom: 40px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: scroll;
+
+}
+.secondary {
+    left: 20px;
+    background: red;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    max-height: 250px;
+    padding: 75px 20px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
+.box {
+  
+  width: 40%;
+  height: 400px;
+  background: orange;
+  border-radius: 2px;
+  border: 2px solid black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  overflow: scroll;
+}
+
+.a {
+  
+  margin: 80vh auto auto auto;
+}
+
+.b {
+  margin: 100vh auto auto auto;
 }
 }

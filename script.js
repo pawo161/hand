@@ -1,3 +1,17 @@
+AOS.init({
+  duration: 1200
+});
+
+
+
+
+$('.hero__scroll').on('click', function(e) {
+    $('html, body').animate({
+        scrollTop: $(window).height()
+    }, 1200);
+});
+        
+
 const video = document.getElementById("myvideo");
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
@@ -15,6 +29,8 @@ const modelParams = {
     iouThreshold: 0.5,      // ioU threshold for non-max suppression
     scoreThreshold: 0.72,    // confidence threshold for predictions.
 }
+
+
 
 function startVideo() {
     handTrack.startVideo(video).then(function (status) {
@@ -71,27 +87,4 @@ handTrack.load(modelParams).then(lmodel => {
 });
 
 
-$(window).on("resize", function() {
-        scaleMobileView();
-    });
 
-function scaleMobileView() {
-    const vW = window.innerWidth;
-    const container = $(".container")[0];
-
-    if (vW >= 1366) {
-        container.style.transform = "none";
-        return false;
-    }
-
-    const containerW = container.clientWidth;
-    const containerH = container.clientHeight;
-
-    const scale = vW / containerW;
-
-    const newCH = containerH * scale;
-    let delta = (newCH - containerH) / 2;
-
-    container.style.transform =
-        "translateY(" + delta + "px) scale(" + scale + ")";
-}

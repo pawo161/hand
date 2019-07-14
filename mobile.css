@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 767px) {
   body {
     background-image: url(hand_mob.jpg);
@@ -33,13 +34,13 @@
 
 .canvasbox {
     left:50%;
-    min-height: 1%;
-    min-width: 1%;
+    height: auto;
+    width: 75%;
     position: fixed;
     top:65%;
     transform: translate(-50%, -50%);
     margin-right: 5px;
-    margin-left: 5px;
+    margin-left: auto;
     border-radius: 3px;
     border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
@@ -78,5 +79,8 @@ audio {
     position: fixed;
     
 }
+}
+.hero__scroll {
+    display:none;
 }
 }
