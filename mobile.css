@@ -35,7 +35,7 @@
 .canvasbox {
     
     height: auto;
-    width: 65%;
+    width: auto;
     position: absolute;
    
     margin-left: 10px;    
