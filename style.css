@@ -137,12 +137,12 @@ audio {
 #recorded{
     left: 5px;
     right:5px;
-    max-width:75%; 
-    height:50vw;
+    max-width:65%; 
+    height:40vw;
     position: absolute;
     
     
-    margin: 200vh auto auto auto;
+    margin: 260vh auto auto auto;
     border-radius: 3px;
     border-bottom: 3px solid #EE82EE;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
