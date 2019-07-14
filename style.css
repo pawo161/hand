@@ -136,7 +136,8 @@ audio {
 }
 button {
   position: fixed;
-  right: 30px;
+  top:80vh;
+  right: 60px;
   
   padding-left: 2px;
   padding-right: 2px;
@@ -150,21 +151,7 @@ button:last-of-type {
   
 }
 
-p.borderBelow {
-  position: fixed;
-  
-  margin: 0 0 20px 0;
-  padding: 0 0 20px 0;
-}
 
-video {
-  position: relative;
-  right: 40px;
-  height: 232px;
-  
-  
-  width: calc(20em - 10px);
-}
 
 }
 }
