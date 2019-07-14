@@ -128,11 +128,11 @@ audio {
 
 .a {
   
-  margin: 40vh auto auto 5px;
+  margin: 75vh auto auto 5px;
 }
 
 .b {
-  margin: 100vh auto auto auto;
+  margin: 100vh 20vw auto auto;
 }
 
 #recorded{
@@ -150,6 +150,7 @@ audio {
 
 
 button {
+  display: none;
   position:relative;
   margin: 75vh 80vw auto auto;
   padding-left: 2px;
