@@ -62,7 +62,6 @@ function toggleVideo() {
         
         isVideo = false;
         updateNote.innerText = "Zastopowane..."
-        stopRecording()
         play();
     }
 }
