@@ -1,8 +1,12 @@
+navigator.getUserMedia =
+    navigator.getUserMedia ||
+    navigator.webkitGetUserMedia ||
+    navigator.mozGetUserMedia ||
+    navigator.msGetUserMedia;
+    
 AOS.init({
   duration: 1200
 });
-
-
 
 
 $('.hero__scroll').on('click', function(e) {
@@ -10,6 +14,7 @@ $('.hero__scroll').on('click', function(e) {
         scrollTop: $(window).height()
     }, 1200);
 });
+
         
 
 const video = document.getElementById("myvideo");
