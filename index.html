@@ -33,7 +33,7 @@
   <div class="p20">
   </div>
   <div class="mb10">
-    <button onclick="toggleVideo();stopRecording()" id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
+    <button onclick="toggleVideo();stopRecording();play()" id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
       Włącz kamerę (proszę).
     </button>
     <div id="updatenote" class="updatenote mt10"> ładuję model...</div>
@@ -45,9 +45,9 @@
   <video id="recorded" autoplay loop controls></video>
 
   <div>
-    
-    <button id="play" disabled>Oglądaj</button>
-    <button id="download" disabled>Ściągnij na dysk</button>
+      <button id="record">Start Recording</button>
+      <button id="play" disabled>Play</button>
+      <button id="download" disabled>Download</button>
   </div>
   <footer>
     <div>

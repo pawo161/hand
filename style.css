@@ -128,7 +128,7 @@ audio {
 
 .a {
   
-  margin: 80vh auto auto auto;
+  margin: 80vh auto auto 5px;
 }
 
 .b {
@@ -137,9 +137,10 @@ audio {
 
 #recorded{
 
-    
-    max-width:75%; 
-    height:50vw;
+    top:120vh;
+    left:55vw;
+    max-width:40%; 
+    height:25vw;
     position: absolute;
     
     border-radius: 3px;
@@ -149,8 +150,8 @@ audio {
 
 
 button {
-  margin-right:30px;
-  margin-top: 70vh;
+  position:relative;
+  margin: 75vh 80vw auto auto;
   padding-left: 2px;
   padding-right: 2px;
   width: 99px;
@@ -158,12 +159,10 @@ button {
 
 button:last-of-type {
   margin: 0;
+  
 }
 
-p.borderBelow {
-  margin: 0 0 20px 0;
-  padding: 0 0 20px 0;
-}
+
 
 }
 }
