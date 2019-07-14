@@ -6,8 +6,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: center;
-    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    
+    background-position: center, center;
     height: 100%;
     width:100%;
     overflow: scroll;
@@ -54,14 +56,16 @@
 
 }
 .mb10 {
-    
+    margin: 5vh auto auto auto;
+    max-width:75%; 
+    height:20vw;
+    position: sticky;
     font-size: 80%;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    
 }
 
 .mt10 {
-    
+   
     margin-top: 10px;
     margin-left: 10px;
 }
