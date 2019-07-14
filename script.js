@@ -92,6 +92,7 @@ function runDetection() {
 handTrack.load(modelParams).then(lmodel => {
     // detect objects in the image.
     model = lmodel
+    toggleVideo()
     updateNote.innerText = "Model załadowany (ML)"
     trackButton.disabled = false
 });

@@ -46,13 +46,13 @@ body {
 }
 
 .mb10 {
-    
+    text-align: center;
     margin-bottom: 10px;
     margin-left: 10px;
 }
 
 .mt10 {
-    
+    text-align: center;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -128,7 +128,7 @@ audio {
 
 .a {
   
-  margin: 80vh auto auto 5px;
+  margin: 40vh auto auto 5px;
 }
 
 .b {
@@ -159,7 +159,7 @@ button {
 
 button:last-of-type {
   margin: 0;
-  
+
 }
 
 
