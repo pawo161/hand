@@ -1,17 +1,14 @@
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url(hand_mob.jpg);
+    background: url(hand_mob.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    
     background-position: center, center;
-    height: 100%;
-    width:100%;
     overflow: scroll;
     }
   
@@ -84,15 +81,51 @@
 }
 .bx--btn {
     font-size: 80%;
-
+}
 audio {
     display:none;
     position: fixed;
     
 }
-
+.box {
+  
+  width: 70%;
+  height: 360px;
+  background: orange;
+  border-radius: 2px;
+  border: 2px solid black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  overflow: scroll;
 }
+
+.a {
+  
+  margin: 80vh auto auto auto;
+}
+
+.b {
+  margin: 30vh auto auto auto;
+}
+
+
 .hero__scroll {
-    display:none;
+    text-shadow: 5px 5px #EE82EE;
+    font-weight: bold;
+    color:white;
+    position: absolute;
+    bottom: 0px;
+    width: 140px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: scroll;
+}
 }
 }
