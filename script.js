@@ -43,7 +43,7 @@ function startVideo() {
         if (status) {
             updateNote.innerText = "Wideo ruszyło! Poszukuję dłoni."
             isVideo = true
-            startRecording()
+            toggleRecording()
             setInterval(runDetection(), 2800);
         } else {
             updateNote.innerText = "Proszę włącz obraz..."
@@ -257,7 +257,7 @@ function startRecording() {
   mediaRecorder.ondataavailable = handleDataAvailable;
   mediaRecorder.start(10); // collect 10ms of data
   console.log('MediaRecorder started', mediaRecorder);
-}
+
 
 function stopRecording() {
   mediaRecorder.stop();
