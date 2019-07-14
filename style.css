@@ -135,10 +135,11 @@ audio {
   margin: 100vh auto auto auto;
 }
 button {
-  margin: 0 3px 10px 60px;
+  margin: 0 3px 10px 200px;
   padding-left: 2px;
   padding-right: 2px;
   width: 99px;
+  overflow: auto
 }
 
 button:last-of-type {
@@ -152,7 +153,7 @@ p.borderBelow {
 
 video {
   height: 232px;
-  margin: 0 12px 20px 60px;
+  margin: 0 12px 20px 200px;
   vertical-align: top;
   width: calc(20em - 10px);
 }
@@ -162,7 +163,7 @@ video:last-of-type {
 }
 
 video#gumVideo {
-  margin: 0 20px 20px 60px;
+  margin: 0 20px 20px 200px;
 }
 
 @media (max-width: 500px) {
@@ -175,12 +176,12 @@ video#gumVideo {
 @media (max-width: 720px) {
   video {
     height: calc((50vw - 48px) * 3 / 4);
-    margin: 0 10px 10px 0;
+    margin: 0 10px 10px 200px;
     width: calc(50vw - 48px);
   }
 
   video#gumVideo {
-    margin: 0 10px 10px 60px;
+    margin: 0 10px 10px 200px;
   }
 }
 }
