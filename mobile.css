@@ -109,6 +109,7 @@ audio {
   margin: 30vh auto auto auto;
 }
 #recorded{
+    display:none;
 
     top:120vh;
     left:55vw;
@@ -133,7 +134,7 @@ button {
 
 button:last-of-type {
   margin: 0;
-  display:none;
+  
 
 }
 #record{
