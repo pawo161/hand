@@ -102,7 +102,7 @@ audio {
     right: 0;
     text-transform: uppercase;
     text-align: center;
-    overflow: scroll;
+    overflow: hidden;
 
 }
 .secondary {
@@ -123,16 +123,20 @@ audio {
 .box {
   
   width: 40%;
-  height: 400px;
-  background: orange;
-  border-radius: 2px;
+  height: 420px;
   border: 2px solid black;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  overflow: scroll;
+  padding: 5px;
+  color: yellow;
+  text-align: left;
+  overflow: hidden;
 }
+#tx{
+    padding:5px;
 
+    max-height:48vh;
+    font-size: 20px;
+
+}
 .a {
   
   margin: 90vh auto auto 5px;
@@ -140,6 +144,7 @@ audio {
 
 .b {
   margin: 100vh auto auto auto;
+  background: #0027c2;
 }
 
 #recorded{
