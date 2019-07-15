@@ -45,6 +45,7 @@ function startVideo() {
             isVideo = true
             setInterval(runDetection(), 2800);
             startRecording()
+
         } else {
             updateNote.innerText = "Proszę włącz obraz..."
             
@@ -64,6 +65,7 @@ function toggleVideo() {
         updateNote.innerText = "Zastopowane..."
         stopRecording()
         play();
+       
     }
 };
 
@@ -150,7 +152,7 @@ var mediaRecorder;
 var recordedBlobs;
 var sourceBuffer;
 
-var gumVideo = document.querySelector('video#gum');
+
 var recordedVideo = document.querySelector('video#recorded');
 
 var recordButton = document.querySelector('button#record');
