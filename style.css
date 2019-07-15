@@ -77,14 +77,13 @@ body {
 }
 
 audio {
-    display:none;
-    position: fixed;
-    margin-top: 400px;
-    margin-left: 10px;
+    position: absolute;
+    top:180vh;
+    right:15vw;
+    max-height: 70%;
+    max-width:100%;
     border-radius: 3px;
-    padding: 20px;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
-    
+    overflow: hidden;
 }
 
 .hero__scroll {
