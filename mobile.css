@@ -108,6 +108,40 @@ audio {
 .b {
   margin: 30vh auto auto auto;
 }
+#recorded{
+
+    top:120vh;
+    left:55vw;
+    max-width:40%; 
+    height:25vw;
+    position: absolute;
+    
+    border-radius: 3px;
+    border-bottom: 3px solid #EE82EE;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 #00000030;
+}
+
+
+button {
+  display: none;
+  position:relative;
+  margin: 75vh 80vw auto auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 99px;
+}
+
+button:last-of-type {
+  margin: 0;
+  display:none;
+
+}
+#record{
+  display:none;
+}
+#play{
+  display:none;
+}
 
 
 .hero__scroll {
