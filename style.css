@@ -21,7 +21,7 @@ body {
 .header{
     position:sticky;
     size: auto;
-
+    font-family: 'Roboto Condensed', sans-serif;
     text-align:left;
     margin-left: 40px;
     margin-right: 40px;
@@ -131,6 +131,7 @@ audio {
 }
 #tx{
     padding:5px;
+    font-family: 'Roboto Condensed', sans-serif;
 
     max-height:48vh;
     font-size: 20px;

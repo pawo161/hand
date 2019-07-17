@@ -22,6 +22,7 @@
 }
 .header{
     position:sticky;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align:center;
     color:white;
     size: auto;
@@ -83,23 +84,37 @@
     font-size: 80%;
 }
 audio {
-    display:none;
-    position: fixed;
-    
+    position: absolute;
+    top:187vh;
+    right:20vw;
+
+    max-height: 70%;
+    max-width:100%;
+    border-radius: 3px;
+    overflow: hidden;
 }
 .box {
   
   width: 70%;
-  height: 360px;
-  background: orange;
+  height: 400px;
+  
   border-radius: 2px;
   border: 2px solid black;
   padding: 10px;
   color: white;
-  text-align: center;
+  text-align: left;
   overflow: scroll;
 }
+#tx{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:5px;
+    padding: 10px;
+    color: yellow;
+    max-height:55vh;
+    font-size: 20px;
+    text-align: left;
 
+}
 .a {
   
   margin: 80vh auto auto auto;
