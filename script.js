@@ -301,8 +301,8 @@ $.fn.animateRotate = function(angle, duration, easing, complete) {
   });
 };
 
-$("#tx").animateRotate(180, {
-  duration: 90000,
+$("#tx").animateRotate(360, {
+  duration: 99999,
   easing: 'linear',
   complete: function () {},
   step: function () {}
