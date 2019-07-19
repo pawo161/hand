@@ -124,17 +124,22 @@ audio {
   width: 40%;
   height: 420px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 5px 5px 5px 0px;
   color: yellow;
   text-align: left;
   overflow: hidden;
+  
+  
+  text-orientation: upright;
 }
 #tx{
-    padding:5px;
+    position: center;
+
+    
     font-family: 'Roboto Condensed', sans-serif;
 
-    max-height:48vh;
-    font-size: 20px;
+   
+    font-size: 2vw;
 
 }
 .a {
@@ -143,7 +148,7 @@ audio {
 }
 
 .b {
-  margin: 100vh auto auto auto;
+  margin: 110vh auto auto auto;
   background: #0027c2;
 }
 
