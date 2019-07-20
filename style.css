@@ -32,7 +32,16 @@ body {
 
 
 }
+#lang{
+    display: inline;
+    left: 80vw;
+    color: white;
+    cursor: pointer;
+    background-color:black;
+    max-width: 5vw;
 
+
+}
 .canvasbox {
     position: absolute;
     border-radius: 3px;
@@ -148,7 +157,7 @@ audio {
 }
 
 .b {
-  margin: 110vh auto auto auto;
+  margin: 120vh auto auto auto;
   background: #0027c2;
 }
 

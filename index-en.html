@@ -27,19 +27,21 @@
 
 <body class="bx--body p20">
   <header class="header">
-  <p>Prezentuję swój nowy utwór "Mięśnie jarzmowe" w eksperymentalny sposób! </p>
-  <p>Używając kamery włączasz utwór swą dłonią. </p>
+  <p>I present you my new tune called "Mięśnie jarzmowe" in experimental way! </p>
+  <p>Through a webcam you trigger a sound using your hand. </p>
   </header>
-  
+ 
   <div class="p20">
-      <button id="lang" onclick="window.location.href='./index-en.html'">EN</button>
+      <button id="lang" onclick="window.location.href='./index.html'">PL</button>
+        
+      
   </div>
   <div class="mb10">
     <button onclick="toggleVideo()" id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
-      <span>Kliknij tutaj by rozpocząć!</span> 
+      <span>Click here to start!</span> 
       
     </button>
-    <div id="updatenote" class="updatenote mt10"> ładuję model...</div>
+    <div id="updatenote" class="updatenote mt10"> loading model...</div>
   </div>
   <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
 
@@ -57,7 +59,7 @@
     <div>
       <span class="hero__scroll aos-init aos-animate" onclick="if(isVideo=true){toggleVideo()}">
         <pre>
-            <br>Kliknij mnie</br>
+            <br>Click me</br>
         </pre>    
       </span>
     </div>
@@ -67,15 +69,15 @@
       <section class="header">
         <div id="tx" >
              
-            <span>Cześć!</span>
-            <p>To eksperymentalna strona, która wykorzystuje algorytmy machine learning.</p>
-            <p>Mam nadzieję, że się podobało. Możesz posłuchać całego utworu tutaj. "Mięśnie jarzmowe"</p>
+            <span>Hi!</span>
+            <p>It's my experimental site, where I use machine learning tools to detect hands.</p>
+            <p>I hope you enjoy it. You can listen to the whole tune here. It's called "Mięśnie jarzmowe"</p>
             
     	</div>
       </section
     </div>
     <div class="box b" data-aos="zoom-in">
-      <h2></h2>
+      <h2>S</h2>
     </div>
 
   </footer>
@@ -83,7 +85,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
   
-  <script src="script.js"></script>
+  <script src="script-en.js"></script>
   
   
 </body>

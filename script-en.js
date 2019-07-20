@@ -42,13 +42,13 @@ function startVideo() {
     handTrack.startVideo(video).then(function (status) {
         console.log("video started", status);
         if (status) {
-            updateNote.innerText = "Wideo ruszyło! Poszukuję dłoni."
+            updateNote.innerText = "Video started! I search for hands."
             isVideo = true
             setInterval(runDetection(), 2800);
             startRecording()
 
         } else {
-            updateNote.innerText = "Proszę włącz obraz..."
+            updateNote.innerText = "Please turn on your webcam..."
             
         }
     });
@@ -56,14 +56,14 @@ function startVideo() {
 
 function toggleVideo() {
     if (!isVideo) {
-        updateNote.innerText = "Startuję wideo..."
+        updateNote.innerText = "Starting video..."
         startVideo();
     } else {
-        updateNote.innerText = "Stopuję..."
+        updateNote.innerText = "Pausing..."
         handTrack.stopVideo(video)
         
         isVideo = false;
-        updateNote.innerText = "Zastopowane..."
+        updateNote.innerText = "Paused..."
         stopRecording()
         play();
         
@@ -97,7 +97,7 @@ handTrack.load(modelParams).then(lmodel => {
     // detect objects in the image.
     model = lmodel
     //toggleVideo()
-    updateNote.innerText = "Model załadowany (ML)"
+    updateNote.innerText = "Model loaded (ML)"
     trackButton.disabled = false
 });
 
