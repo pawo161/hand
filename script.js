@@ -14,6 +14,7 @@ $('.hero__scroll').on('click', function(e) {
     $('html, body').animate({
         scrollTop: $(window).height()
     }, 1200);
+    audio.play();
 });
 
         
@@ -30,10 +31,10 @@ let model = null;
 
 const modelParams = {
     flipHorizontal: false,  // flip e.g for video  
-    imageScaleFactor: 0.2,   
+    imageScaleFactor: 0.4,   
     maxNumBoxes: 3,        // maximum number of boxes to detect
     iouThreshold: 0.5,      // ioU threshold for non-max suppression
-    scoreThreshold: 0.65,    // confidence threshold for predictions.
+    scoreThreshold: 0.63,    // confidence threshold for predictions.
 }
 
 
@@ -66,6 +67,7 @@ function toggleVideo() {
         updateNote.innerText = "Zastopowane..."
         stopRecording()
         play();
+
         
        
     }
@@ -182,7 +184,7 @@ navigator.mediaDevices.getUserMedia(
 function successCallback(stream) {
   console.log('getUserMedia() got stream: ', stream);
   window.stream = stream;
-  gumVideo.srcObject = stream;
+  
 }
 
 function errorCallback(error) {
@@ -214,20 +216,8 @@ function handleDataAvailable(event) {
   }
 }
 
-function handleStop(event) {
-  console.log('Recorder stopped: ', event);
-}
 
-function toggleRecording() {
-  if (recordButton.textContent === 'Start Recording') {
-    startRecording();
-  } else {
-    stopRecording();
-    recordButton.textContent = 'Start Recording';
-    playButton.disabled = false;
-    downloadButton.disabled = false;
-  }
-}
+
 
 // The nested try blocks will be simplified when Chrome 47 moves to Stable
 function startRecording() {

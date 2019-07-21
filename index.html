@@ -12,7 +12,7 @@
     gtag('config', 'UA-143837497-1');
   </script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="UTF-8">
   <title>reakcja na dłoń! </title>
   <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
@@ -73,7 +73,19 @@
             
     	</div>
       </section
-    </div>
+	
+	<div></div>
+	
+    <div id="pay">
+    	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		<input type="hidden" name="cmd" value="_s-xclick" />
+		<input type="hidden" name="hosted_button_id" value="6FJ9QD86JSPW6" />
+		<input type="image" src="https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+		<img alt="" border="0" src="https://www.paypal.com/en_PL/i/scr/pixel.gif" width="1" height="1" />
+		</form>
+
+	</div>
+
     <div class="box b" data-aos="zoom-in">
       <h2></h2>
     </div>
@@ -83,7 +95,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"> </script>
   
-  <script src="script.js"></script>
+  <script defer src="script.js"></script>
   
   
 </body>

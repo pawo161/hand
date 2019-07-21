@@ -42,6 +42,16 @@ body {
 
 
 }
+#pay{
+    
+    position:relative;
+    bottom:0vh;
+    left:12vw;
+    width:1vw;
+    cursor: pointer;
+
+    
+}
 .canvasbox {
     position: absolute;
     border-radius: 3px;
@@ -86,8 +96,9 @@ body {
 }
 
 audio {
+    display:inline-block;
     position: absolute;
-    top:180vh;
+    bottom:-85vh;
     right:15vw;
     max-height: 70%;
     max-width:100%;

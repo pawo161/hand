@@ -123,15 +123,16 @@ audio {
 }
 
 .b {
-  margin: 100vh auto auto auto;
+    
+    margin: 100vh auto auto auto;
 }
 #recorded{
-    display:none;
+    display:block;
 
-    top:120vh;
-    left:55vw;
-    max-width:40%; 
-    height:25vw;
+    top:220vh;
+    left:30vw;
+    max-width:45%; 
+    height:30vw;
     position: absolute;
     
     border-radius: 3px;

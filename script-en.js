@@ -14,6 +14,7 @@ $('.hero__scroll').on('click', function(e) {
     $('html, body').animate({
         scrollTop: $(window).height()
     }, 1200);
+    audio.play();
 });
 
         
