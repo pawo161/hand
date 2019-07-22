@@ -184,7 +184,7 @@ navigator.mediaDevices.getUserMedia(
 function successCallback(stream) {
   console.log('getUserMedia() got stream: ', stream);
   window.stream = stream;
-  
+  gumVideo.srcObject = stream;
 }
 
 function errorCallback(error) {
@@ -216,7 +216,20 @@ function handleDataAvailable(event) {
   }
 }
 
+function handleStop(event) {
+  console.log('Recorder stopped: ', event);
+}
 
+function toggleRecording() {
+  if (recordButton.textContent === 'Start Recording') {
+    startRecording();
+  } else {
+    stopRecording();
+    recordButton.textContent = 'Start Recording';
+    playButton.disabled = false;
+    downloadButton.disabled = false;
+  }
+}
 
 
 // The nested try blocks will be simplified when Chrome 47 moves to Stable
